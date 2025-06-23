@@ -22,7 +22,7 @@ export function drawHome() {
     boneImg.src = boneImage;
     info.appendChild(boneImg);
     const infoParagraph = document.createElement("p");
-    infoParagraph.textContent = "Some restaurant information Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi hic officia totam possimus iste nisi dicta, maiores ab temporibus nulla laborum eligendi voluptate? Sequi at incidunt laudantium nobis dicta accusantium.";
+    infoParagraph.textContent = "Owners not satisfying your cravings for some tasty treats? Come on over for breakfast, lunch, dinner, or just a snack - they'll never know! We'll have your tail wagging in no time as you chow down on our wonderful meals. You won't need a doggie bag: we guarantee you'll be wolfing it all down.";
     info.appendChild(infoParagraph);
 
     // Hours

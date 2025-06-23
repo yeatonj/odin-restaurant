@@ -54,7 +54,7 @@ export function drawContact() {
     const info = document.createElement("section");
     info.id = "info";
     const infoParagraph = document.createElement("p");
-    infoParagraph.textContent = "Information about the staff here Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi hic officia totam possimus iste nisi dicta, maiores ab temporibus nulla laborum eligendi voluptate? Sequi at incidunt laudantium nobis dicta accusantium.";
+    infoParagraph.textContent = "Our staff is all highly trained in canine food preparation. With more than 25 years of experience in scrounging and begging for the best food known to dog-kind, you can be sure that our meals will leave you panting for more! Please reach out to us, we'd love to get a 'woof' from you!";
     info.appendChild(infoParagraph);
 
     // Contact cards
