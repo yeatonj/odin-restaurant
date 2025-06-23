@@ -1,6 +1,47 @@
+/* mochiy-pop-one-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Mochiy Pop One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/mochiy-pop-one-v11-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+#content {
+    padding-left: 10vw;
+    padding-right: 10vw;
+
+}
+
 #title img {
-    height: 50px;
-    width: 50px;
+    height: 50%;
+    width: auto;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    height: 100px;
+    gap: 30px;
 }
 
 .contact-image img {
@@ -12,4 +53,21 @@
 .contact-image {
     height: 100px;
     width: 100px;
+}
+
+.dish-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+    border: solid 3px black;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 10px;
 }
