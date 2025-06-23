@@ -8,6 +8,7 @@ function menuCard(dishName, dishDescription, price, dishPicture) {
     dishTitle.textContent = dishName;
 
     const dishPrice = document.createElement("h3");
+    dishPrice.classList.add("price");
     dishPrice.textContent = price;
 
     const imgContainer = document.createElement("div");
