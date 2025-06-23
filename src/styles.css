@@ -7,6 +7,10 @@
     src: url('./fonts/mochiy-pop-one-v11-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
+body {
+    background-color: #F3F3E0;
+}
+
 * {
     font-family: 'Mochiy Pop One', sans-serif;
     box-sizing: border-box;
@@ -28,15 +32,20 @@ p {
 
 body {
     margin: 0px;
+    height: 1vh;
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
 }
 
 a {
     text-decoration: none;
+    color: #DDA853;
 }
 
 header {
     display: flex;
     justify-content: center;
+    background-color: #27548A;
 }
 
 #content {
@@ -123,4 +132,14 @@ footer {
     justify-content: center;
     gap: 50px;
     font-size: 10px;
+    background-color: #183B4E;
+    height: 30px;
+    align-items: center;
+}
+
+button {
+    background-color: #DDA853;
+}
+nav {
+    align-self: center;
 }
