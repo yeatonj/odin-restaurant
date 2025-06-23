@@ -3,12 +3,12 @@
     width: 50px;
 }
 
-#info img {
-    height: 50px;
-    height: 50px;
+.contact-image img {
+    object-fit: contain;
 }
 
-#contact-card img {
+.contact-image {
+    object-fit: contain;
     height: 100px;
     height: 100px;
 }

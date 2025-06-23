@@ -6,9 +6,13 @@ import matsuImage from "../img/matsu.jpeg";
 function createContactCard(name, title, phone, email, image) {
     const card = document.createElement("div");
     card.id = "contact-card";
+
+    const imgContainer = document.createElement("div");
+    imgContainer.className = "contact-image";
     const profilePic = document.createElement("img");
     profilePic.src = image;
     profilePic.alt = name;
+    imgContainer.appendChild(profilePic);
 
     const dogName = document.createElement("h3");
     dogName.textContent = name;
@@ -23,7 +27,7 @@ function createContactCard(name, title, phone, email, image) {
     dogEmail.href = "mailto:" + email;
     dogEmail.textContent = email;
 
-    card.appendChild(profilePic);
+    card.appendChild(imgContainer);
     card.appendChild(dogName);
     card.appendChild(dogTitle);
     card.appendChild(dogPhone);
