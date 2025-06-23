@@ -114,6 +114,10 @@ header {
     grid-column: 2 / 4;
 }
 
+.price {
+    text-align: end;
+}
+
 footer {
     display: flex;
     justify-content: center;
