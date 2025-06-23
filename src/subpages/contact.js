@@ -4,7 +4,6 @@ import jojoImage from "../img/jojo.jpeg";
 import matsuImage from "../img/matsu.jpeg";
 
 function createContactCard(name, title, phone, email, image) {
-    console.log("here");
     const card = document.createElement("div");
     card.id = "contact-card";
     const profilePic = document.createElement("img");

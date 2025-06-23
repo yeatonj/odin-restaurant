@@ -16,7 +16,7 @@ function drawContent(drawFunction) {
     drawFunction();
 }
 
-// drawHome();
+drawHome();
 
 const buttons = [...document.querySelectorAll("button")];
 
