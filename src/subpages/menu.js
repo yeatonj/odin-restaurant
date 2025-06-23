@@ -20,9 +20,9 @@ function menuCard(dishName, dishDescription, price, dishPicture) {
     const dishDescrip = document.createElement("p");
     dishDescrip.textContent = dishDescription;
 
+    card.appendChild(imgContainer);
     card.appendChild(dishTitle);
     card.appendChild(dishPrice);
-    card.appendChild(imgContainer);
     card.appendChild(dishDescrip);
     return card;
 }

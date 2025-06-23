@@ -22,6 +22,7 @@ function createContactCard(name, title, phone, email, image) {
 
     const dogPhone = document.createElement("p");
     dogPhone.textContent = phone;
+    dogPhone.classList.add("phone");
 
     const dogEmail = document.createElement("a");
     dogEmail.href = "mailto:" + email;

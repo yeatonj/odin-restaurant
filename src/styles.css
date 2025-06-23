@@ -9,6 +9,21 @@
 
 * {
     font-family: 'Mochiy Pop One', sans-serif;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+p {
+    margin-top: 5px;
 }
 
 body {
@@ -44,6 +59,22 @@ header {
     gap: 30px;
 }
 
+#contact-card {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    column-gap: 20px;
+    margin-bottom: 30px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+#contact-card>* {
+    margin: 0px;
+}
+
+#contact-card h3 {
+    align-self: self-end;
+}
+
 .contact-image img {
     height: 100%;
     width: 100%;
@@ -51,8 +82,21 @@ header {
 }
 
 .contact-image {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
+    grid-row: 1 / 5;
+}
+
+.phone {
+    align-self: self-end;
+}
+
+#menu-card {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-template-rows: 60px 1fr;
+    column-gap: 20px;
+    margin-bottom: 15px;
 }
 
 .dish-image {
@@ -63,6 +107,11 @@ header {
     display: grid;
     align-items: center;
     justify-content: center;
+    grid-row: 1 / 3;
+}
+
+#menu-card p {
+    grid-column: 2 / 4;
 }
 
 footer {
